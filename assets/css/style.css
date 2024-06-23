@@ -363,9 +363,9 @@ a {
       border-color: #ff8257; }
 
 .section-title .title-tag {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 700;
-  color: #1baaa0;
+  color: #071952;
   line-height: 1.4;
   margin-bottom: 15px;
   position: relative; }
@@ -834,7 +834,7 @@ header .container-fluid {
     .header-topbar .language-dropdown i {
       margin-left: 5px; }
   .header-topbar.with-language-right {
-    padding-right: 130px; }
+    padding-right: 30px; }
     .header-topbar.with-language-right .language-dropdown {
       position: absolute;
       right: 0;
@@ -924,7 +924,7 @@ header .container-fluid {
         -o-transition: all 0.3s ease-out 0s;
         transition: all 0.3s ease-out 0s; }
       .header-navbar .primary-menu li a {
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 500;
         color: #b1b1b1;
         padding: 5px;
@@ -1098,7 +1098,7 @@ header .container-fluid {
     display: none; }
 
 .header-one .header-topbar {
-  background-color: #1baaa0; }
+  background-color: #088395; }
 
 .header-one .social-icon a,
 .header-one .contact-info a,
@@ -1370,7 +1370,7 @@ header .container-fluid {
     position: absolute;
     top: 20px;
     right: 10px;
-    font-size: 25px;
+    font-size: 18px;
     line-height: 1;
     padding: 5px;
     color: #fff;
@@ -1556,8 +1556,8 @@ header .container-fluid {
 
 /*=======  Hero  =======*/
 .hero-area {
-  padding-top: 70px;
-  padding-bottom: 70px; }
+  padding-top: 50px;
+  padding-bottom: 50px; }
   @media (max-width: 991px) {
     .hero-area .hero-text {
       margin-bottom: 50px; } }
@@ -2112,7 +2112,7 @@ header .container-fluid {
   .about-experience-galley .experience-tag {
     position: absolute;
     top: 15px;
-    left: 410px;
+    left: 390px;
     -webkit-box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.06);
     box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.06);
     width: 164px;
@@ -2131,7 +2131,9 @@ header .container-fluid {
     justify-content: center; }
     @media (max-width: 767px) {
       .about-experience-galley .experience-tag {
-        left: 335px; } }
+        left: 137px;
+      z-index: 9;
+      margin-top: -20px; } }
     .about-experience-galley .experience-tag span {
       display: block;
       text-align: center;
@@ -2554,7 +2556,7 @@ header .container-fluid {
     line-height: 1;
     font-size: 100px;
     font-weight: 700;
-    color: #1baaa0;
+    color: #071952;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1px #1baaa0;
     margin-bottom: 20px; }
